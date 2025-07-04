@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="st" class="org.example.Student">
+    </bean>
+
+    <bean id = "sp" class = "org.example.SpringBoot"/>
+    <bean id = "t" class = "org.example.trainers"/>
+    <bean id = "stf" class = "org.example.staffs"/>
+    <bean id = "h" class = "org.example.hostel"/>
+
+
+</beans>
